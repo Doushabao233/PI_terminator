@@ -8,7 +8,6 @@ from tkinter.ttk import *
 
 '''
 希望老天爷保佑，这个程序少出点BUG吧
-
 '''
 window = Tk()
 window.resizable(False, False)
