@@ -1,0 +1,8 @@
+{
+    "language_file": "language-zh-cn.json",
+
+    "secret_setting": {
+        "enabled": false,
+        "password": ""
+    }
+}

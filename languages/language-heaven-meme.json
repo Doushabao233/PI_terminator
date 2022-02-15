@@ -1,0 +1,40 @@
+{
+    "comment": "每个人有毛毛的语言文件！！！！",
+    "version": "1.0.4",
+    
+    "gui": {
+        "title.1": "每个人的身上都有毛毛",
+        "title.2": "每个人的身上都有毛毛 目前分数{}分",
+        "menubar.help": "我咋不懂呢",
+        "menubar.help.about": "你是什么垃圾",
+        "menubar.help.version": "啥时候发的版本啊",
+        "text.question": "{}拍=?",
+        "button.i_finish": "赶紧提交啊啊啊"
+    },
+    "message": {
+        "right": {
+            "msg1.title": "对咯！",
+            "msg1.text": "真不错，我妈妈很帅，好了不说了，你答对了。\nScOre{}",
+
+            "msg2.title": "You know the rules..",
+            "msg2.text": "AND SO DO I"
+        },
+        "wrong": {
+            "msg3.title": "干啥呢！",
+            "msg3.text": "好好做题，不要空着！ A FULL COMMITS WHAT IM THINKING OF LOVE~",
+
+            "msg4.title": "{}pai的结果",
+            "msg4.text": "You wouldnt get this FROM ANY OTHER GUY!!\n答案错误，正确答案是{}。\n扣一分！目前分数：{}分",
+
+            "msg5.title": "IIIIIIIIIIIIII JUST WANNA tell u how im felling…",
+            "msg5.text": "答案错误。正确答案是：{}，背下来吧。Gotta make U understand"
+        },
+        "menubar": {
+            "msg6.title": "破关于页面！！！！！",
+            "msg6.text": "豆沙包做的！！\n我做这个程序费了很多心血！！你必须给我喜欢！！",
+
+            "msg7.title": "啥时候发的版本？？？？",
+            "msg7.text": "{}！哈哈！猜猜是什么意思？\n语言文件的版本号和程序版本是匹配的！！记住！！当不匹配时，会爆炸！！小心小心，哈哈！！"
+        }
+    }
+}

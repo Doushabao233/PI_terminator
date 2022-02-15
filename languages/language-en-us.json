@@ -1,0 +1,40 @@
+{
+    "comment": "The language file of PI terminator",
+    "version": "1.0.4",
+
+    "gui": {
+        "title.1": "PI Terminator",
+        "title.2": "PI Terminator (Score: {} point)",
+        "menubar.help": "Help",
+        "menubar.help.about": "About",
+        "menubar.help.version": "Version",
+        "text.question": "{} * 3.14 = ?",
+        "button.i_finish": "I finish it"
+    },
+    "message": {
+        "right": {
+            "msg1.title": "You're right",
+            "msg1.text": "You're right, plus ont point!\nScore: {} point",
+
+            "msg2.title": "Next",
+            "msg2.text": "Next question!"
+        },
+        "wrong": {
+            "msg3.title": "Don't be too casual!",
+            "msg3.text": "Answer the questions well and don't leave them empty.",
+
+            "msg4.title": "The result of {} * 3.14",
+            "msg4.text": "You're wrong, The correct answer is: {}.\nDeduct one point! Score: {} points",
+
+            "msg5.title": "Just to remind you again..",
+            "msg5.text": "You're wrong. The correct answer is: {}. Recite it."
+        },
+        "menubar": {
+            "msg6.title": "About \"PI Terminator\"",
+            "msg6.text": "author: Doushabao\nI spent lots of effort on this program. I hope you like it!",
+
+            "msg7.title": "PI Terminator - version",
+            "msg7.text": "You are using version {}.\nThe version number of the language file matches the version number of this program. When it does not match, an error message will be automatically reported."
+        }
+    }
+}

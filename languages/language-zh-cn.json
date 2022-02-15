@@ -1,0 +1,40 @@
+{
+    "comment": "圆周率终结者的语言文件",
+    "version": "1.0.4",
+
+    "gui": {
+        "title.1": "圆周率终结者",
+        "title.2": "圆周率终结者 目前分数{}分",
+        "menubar.help": "帮助",
+        "menubar.help.about": "关于",
+        "menubar.help.version": "版本号",
+        "text.question": "{}pai=?",
+        "button.i_finish": "我做完了(￣▽￣)"
+    },
+    "message": {
+        "right": {
+            "msg1.title": "正确",
+            "msg1.text": "答题正确！加一分！\n目前分数：{}分",
+
+            "msg2.title": "继续",
+            "msg2.text": "下一题！"
+        },
+        "wrong": {
+            "msg3.title": "干啥呢！",
+            "msg3.text": "好好做题，不要空着！",
+
+            "msg4.title": "{}pai的结果",
+            "msg4.text": "答案错误，正确答案是{}。\n扣一分！目前分数：{}分",
+
+            "msg5.title": "再强调一遍…",
+            "msg5.text": "答案错误。正确答案是：{}，背下来吧。"
+        },
+        "menubar": {
+            "msg6.title": "关于圆周率终结者",
+            "msg6.text": "制作：豆沙包\n我做这个程序费了很多心血，希望你喜欢~",
+
+            "msg7.title": "圆周率终结者 - 版本号",
+            "msg7.text": "你目前使用的版本是{}\n语言文件的版本号匹配程序的版本号，当不匹配时，会自动报错。"
+        }
+    }
+}
