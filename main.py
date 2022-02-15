@@ -12,12 +12,14 @@ from tkinter.ttk import *
 '''
 window = Tk()
 window.resizable(False, False)
+window.tk.call('source', 'sun-valley.tcl')
+window.tk.call('set_theme', 'light')
 
 # 圆周率
 pi = 3.14
 
 # 变量
-current_version = '1.0.5'
+current_version = '1.1.0'
 cheat = False
 question = StringVar()
 float_number = 0 # 计算机在后台计算出的答案结果，这才是答案
@@ -39,7 +41,6 @@ with open('languages\\' + settings['language_file'], 'r', encoding='utf-8') as f
         msgbox.showinfo('Don\'nt worry', '如果你看不懂上面的语句，请借助翻译软件')
         exit()
 
-# 定义窗口
 window.title(lang['gui']['title.1'])
 
 # 创建菜单栏
@@ -76,6 +77,7 @@ def check_answer():
     global score, pi_answer
     if cheat or pi_answer.get() == str(float_number):
         score += 1
+        window.title(lang['gui']['title.2'].format(score))
         msgbox.showinfo(lang['message']['right']['msg1.title'], lang['message']['right']['msg1.text'].format(score))
         msgbox.showinfo(lang['message']['right']['msg2.title'], lang['message']['right']['msg2.text'])
     else:
