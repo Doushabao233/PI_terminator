@@ -1,6 +1,6 @@
 {
     "comment": "The language file of PI terminator",
-    "version": "1.0.4",
+    "version": "1.0.5",
 
     "gui": {
         "title.1": "PI Terminator",

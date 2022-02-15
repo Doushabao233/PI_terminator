@@ -17,11 +17,11 @@ window.resizable(False, False)
 pi = 3.14
 
 # 变量
-current_version = '1.0.4'
+current_version = '1.0.5'
 cheat = False
 question = StringVar()
 float_number = 0 # 计算机在后台计算出的答案结果，这才是答案
-random_int_list = [2, 3, 4, 5, 6, 8, 10, 12, 16, 20] # 每次出题时的一个因数 用它 * 3.14
+random_int_list = [2, 3, 4, 5, 6, 8, 10, 20] # 每次出题时的一个因数 用它 * 3.14
 factor = 0 # 从上面选择出来的因数
 score = 0 # 玩家分数
 
