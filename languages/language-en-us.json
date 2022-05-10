@@ -1,6 +1,6 @@
 {
     "comment": "The language file of PI terminator",
-    "version": "1.1.0",
+    "version": "1.1.1",
 
     "gui": {
         "title.1": "PI Terminator",
@@ -31,7 +31,7 @@
         },
         "menubar": {
             "msg6.title": "About \"PI Terminator\"",
-            "msg6.text": "author: Doushabao\nI spent lots of effort on this program. I hope you like it!",
+            "msg6.text": "author: Doushabao\nI spent lots of effort on this program. I hope you like it!\nRunning on {} platform (python version: {})",
 
             "msg7.title": "PI Terminator - version",
             "msg7.text": "You are using version {}.\nThe version number of the language file matches the version number of this program. When it does not match, an error message will be automatically reported."

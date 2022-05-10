@@ -2,12 +2,12 @@ import json
 import random
 import hashlib
 import tkinter.messagebox as msgbox
-from sys import exit
+from sys import exit, platform, version_info
 from tkinter import *
 from tkinter.ttk import *
 
 '''
-希望老天爷保佑，这个程序少出点BUG吧
+老天爷保佑，这个程序少出点BUG
 '''
 window = Tk()
 window.resizable(False, False)
@@ -18,7 +18,12 @@ window.tk.call('set_theme', 'light')
 pi = 3.14
 
 # 变量
-current_version = '1.1.0'
+current_version = '1.1.1'
+python_version = '{0}.{1}.{2}'.format(
+    version_info.major, 
+    version_info.minor, 
+    version_info.micro
+)
 cheat = False
 question = StringVar()
 float_number = 0 # 计算机在后台计算出的答案结果，这才是答案
@@ -36,15 +41,18 @@ with open('languages\\' + settings['language_file'], 'r', encoding='utf-8') as f
     # 如果版本号不匹配则自动报错
     if lang['version'] != current_version:
         window.withdraw()
-        msgbox.showerror('Error! 程序出错了！', 'The software version corresponding to the language file of the program is different, so the program cannot run now.\nYou can ask the original author of the software for the language file. At the same time, please do not modify the version in the language file without authorization.')
-        msgbox.showinfo('Don\'nt worry', '如果你看不懂上面的语句，请借助翻译软件')
+        msgbox.showerror('错误', '程序的语言文件对应的软件版本不同，因此程序现在无法运行。\n你可以向软件的原始作者索要语言文件。同时，请不要擅自修改语言文件中的版本以免造成不可预知的后果。')
+        msgbox.showerror('Error', 'The software version corresponding to the language file of the program is different, so the program cannot run now.\nYou can ask the original author of the software for the language file. At the same time, please do not modify the version in the language file without authorization to cause unpredictable consequences.')
         exit()
 
 window.title(lang['gui']['title.1'])
 
 # 创建菜单栏
 def about():
-    msgbox.showinfo(lang['message']['menubar']['msg6.title'], lang['message']['menubar']['msg6.text'])
+    msgbox.showinfo(
+        lang['message']['menubar']['msg6.title'], 
+        lang['message']['menubar']['msg6.text'].format(platform, python_version)
+    )
 def version():
     msgbox.showinfo(lang['message']['menubar']['msg7.title'], lang['message']['menubar']['msg7.text'].format(current_version))
 
