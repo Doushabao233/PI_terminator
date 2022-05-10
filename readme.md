@@ -12,8 +12,6 @@
 
 ## 关于圆
 
----
-
 我们在小学会学到圆，圆的面积，圆的周长。
 
 对于公式的具体推导过程，这里不再演示，你可以自行了解或去数学书中查看过程。
@@ -28,8 +26,6 @@
 因此，这款软件应运而生了。
 
 ## 本软件使用教程
-
----
 
 > *以下内容撰写于这个软件的 1.0.4版本，使用简体中文语言。*
 
@@ -62,8 +58,6 @@
 
 ## 修改设置文件
 
----
-
 如果你不想深入的玩儿这个程序，以下内容不用看了。
 
 **Note**: If you are a foreign user, you might as well read it with the help of translation software. (however, will the software I make be used by foreigners??)
@@ -88,8 +82,6 @@
 | `"language_file"` | 设置语言文件，关于什么是语言文件，后面会讲。 |
 
 ## 修改语言文件
-
----
 
 语言文件是可以让软件改变显示文本的东西，作者内置了三种语言。
 
